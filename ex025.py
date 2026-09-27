@@ -1,0 +1,2 @@
+nome = str(input('Qual seu nome completo? ')).strip() #strip tira todos espaços
+print('Seu nome tem silva? {}'.format('silva' in nome.lower()))#lower ou upper é pra que encontre tanto em minúsculo ou maiúsculo
